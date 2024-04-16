@@ -31,7 +31,6 @@ Steps to serve model using OpenShift AI:
      Path: flan-t5-xl-hf
 
 8. Wait for Status to be green.
-
 9. Copy the inference point. For example:  https://test-flang.apps.teckton.7ctq.s1.devshift.org
 10. Query the model with the inference endpoint using grpc requests.
     
