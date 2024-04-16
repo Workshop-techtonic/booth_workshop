@@ -24,7 +24,7 @@ Steps to serve model using OpenShift AI:
    
      Model framework: PyTorch
    
-     Model Server Size: Small
+     Model Server Size: Custome and select the memeroy size more than 70
    
      Select Existing data connection --> select mystorage (that you have created in the previous step)
    
