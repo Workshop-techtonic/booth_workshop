@@ -28,7 +28,7 @@ Steps to serve model using OpenShift AI:
    
      Select Existing data connection --> select mystorage (that you have created in the previous step)
    
-     Path: santacode_hf/santacoder
+     Path: santacode_hf/gpt_bigcode-santacoder/
 
 8. Wait for Status to be green.
 9. Copy the inference point. For example:  https://test-flang.apps.teckton.7ctq.s1.devshift.org
