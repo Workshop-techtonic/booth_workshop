@@ -34,7 +34,7 @@ Steps to serve model using OpenShift AI:
     a. To query the model, clone the repository - https://github.com/IBM/text-generation-inference.git
 
     b. From the cloned directory execute the command,
-        $ grpcurl -d  '{"requests": [{"text":"What is the boiling temperature of water?"}]}' -H 'mm-model-id: <model id>' -insecure -proto text-generation-inference/proto/generation.proto <inference endpoint> fmaas.GenerationService/Generate
+        $  grpcurl -d '{"requests": [{"text":"What is the boiling temperature of water?"}]}' -H 'mm-model-id: <model id>' -insecure -proto text-generation-inference/proto/generation.proto <inference endpoint > fmaas.GenerationService/Generate
      
         For example,
         model id: mymodel
